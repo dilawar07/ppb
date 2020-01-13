@@ -126,7 +126,7 @@
         <label>Message</label>
         <textarea class="w3-input w3-border" style="height:100px;resize:none" type="text" name="Message" required> </textarea>
       </div>
-      <button type="submit" class="w3-button w3-red w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+      <button type="submit" class="w3-button w3-red w3-margin-bottom w3-hover-black"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
 
