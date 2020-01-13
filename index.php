@@ -7,10 +7,10 @@
   <header id="home">
     <div class="w3-row-padding">
       <div class="w3-col m6 w3-padding" style="margin-top:50px">
-        <img src="/img/rrc.jpg" alt="Bank" style="width:100%">
+        <img src="/images/rrc.jpg" alt="Bank" style="width:100%">
       </div>
       <div class="w3-col m6 w3-padding" style="margin-top:50px">
-        <img src="/img/edc.jpg" alt="RRC EDC" style="width:100%">
+        <img src="/images/edc.jpg" alt="RRC EDC" style="width:100%">
       </div>
     </div>
   </header>

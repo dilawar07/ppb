@@ -4,7 +4,7 @@
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-hover-red" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="/img/logo.gif" style="width:35%;" class="w3-round"><br><br>
+    <img src="/images/logo.gif" style="width:35%;" class="w3-round"><br><br>
     <h2><b>PridePoint</b></h2>
     <p class="w3-text-grey">the bank you deserve</p>
   </div>
