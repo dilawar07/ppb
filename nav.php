@@ -15,12 +15,10 @@
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hover-red"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
   <div class="w3-panel w3-large">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="https://www.facebook.com/PridePoint-Bank-101002388113611/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <a href="https://www.instagram.com/pridepoint_bank/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.twitter.com/in/pridepoint_bank/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/pridepoint_bank/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   </div>
 </nav>
 
