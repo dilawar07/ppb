@@ -18,7 +18,8 @@
   <!-- About -->
   <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
     <h1 class="w3-xxlarge w3-text-red"><b>About Us.</b></h1>
-    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <p>PridePoint Bank Limited is an Canadian multinational banking and financial services company headquartered in Winnipeg, Manitoba. As of 2018, PridePoint Bank is the second largest bank in Canada in terms of assets and market capitalisation. It offers a wide range of banking products and financial services for corporate and retail customers through a variety of delivery channels and specialised subsidiaries in the areas of investment banking, life, non-life insurance, venture capital and asset management. The bank has a network of 4882 branches and 15101 ATMs across the country and has a presence in 17 countries including US.<br>
+    PridePoint Bank is one of the Big Four banks of Canada. The bank has subsidiaries in the United Kingdom and Canada; branches in United States, Singapore, Bahrain, Hong Kong, Qatar, Oman, Dubai International Finance Centre, China and South Africa; and representative offices in United Arab Emirates, Bangladesh, Malaysia and Indonesia. The company's UK subsidiary has also established branches in Belgium and Germany.</p>
     <hr>
 
     <h4>Customer Survey Results</h4>
