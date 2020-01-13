@@ -81,33 +81,31 @@
             <input class="w3-input w3-border w3-margin-bottom" type="tel" pattern="[0-9]{10}" name="mnum" required>
           </div>
         </div>
-      <div class="w3-row-padding">
-        <div class="w3-half">
-            <label><b>Password</b></label>
-            <input class="w3-input w3-border w3-margin-bottom" type="password" name="password" required>
+        <div class="w3-row-padding">
+          <div class="w3-half">
+              <label><b>Password</b></label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" name="password" required>
+          </div>
+          <div class="w3-half">
+              <label><b>Confirm Password</b></label>
+              <input class="w3-input w3-border w3-margin-bottom" type="password" name="password2" required>
+          </div>
         </div>
-        <div class="w3-half">
-            <label><b>Confirm Password</b></label>
-            <input class="w3-input w3-border w3-margin-bottom" type="password" name="password2" required>
+        <h5>Account type</h5>
+        <div class="w3-row-padding">
+          <div class="w3-third">
+              <input class="w3-radio" type="radio" name="gender" value="chequing" checked>
+              <label>Chequing (free)</label>
+          </div>
+          <div class="w3-third">
+              <input class="w3-radio" type="radio" name="gender" value="savings">
+              <label>Savings ($10/m)</label>
+          </div>
+          <div class="w3-third">
+              <input class="w3-radio" type="radio" name="gender" value="bussiness" >
+              <label>Bussiness ($30/m)</label>
+          </div>
         </div>
-      </div>
-
-<h5>Account type</h5>
-    <div class="w3-row-padding">
-        <div class="w3-third">
-          <input class="w3-radio" type="radio" name="gender" value="chequing" checked>
-          <label>Chequing</label>
-       </div>
-       <div class="w3-third">
-          <input class="w3-radio" type="radio" name="gender" value="savings">
-          <label>Savings</label>
-        </div>
-        <div class="w3-third">
-        <input class="w3-radio" type="radio" name="gender" value="bussiness" >
-        <label>Bussiness</label>
-      </div>
-    </div>
-
         <button class="w3-button w3-block w3-green w3-section w3-padding w3-red w3-hover-black" type="submit">Create Account</button>
       </div>
     </form>
