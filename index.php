@@ -54,9 +54,6 @@
             <h2>Free</h2>
             <span class="w3-opacity">No monthly fee</span>
           </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
         </ul>
       </div>
 
@@ -70,9 +67,6 @@
           <li class="w3-padding-16">
             <h2>$ 10</h2>
             <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
           </li>
         </ul>
       </div>
@@ -88,12 +82,12 @@
             <h2>$ 30</h2>
             <span class="w3-opacity">per month</span>
           </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
         </ul>
       </div>
     </div>
+    <div class="w3-container w3-center">
+      Chosen what type of account works for you?<br>
+      <button class="w3-button w3-red w3-padding-large w3-hover-black w3-margin-top">Sign Up Now!</button>
   </div>
 
   <!-- Contact Section -->
