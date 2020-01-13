@@ -41,6 +41,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
+<<<<<<< HEAD
   <header id="portfolio">
     <a href="#"><img src="/img/logo.gif" style="width:40px;" class="w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
@@ -48,14 +49,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1><b>PridePoint Bank</b></h1>
     </div>
   </header>
+=======
+>>>>>>> 8652d92297b0e88179d7f4f6e460759c713ca331
 
   <!-- Images of Me -->
   <div class="w3-row-padding w3-padding-16" id="about">
     <div class="w3-col m6">
+<<<<<<< HEAD
       <img src="/img/rrc.jpg" alt="Me" style="width:100%">
     </div>
     <div class="w3-col m6">
       <img src="/img/edc.jpg" alt="Me" style="width:100%">
+=======
+      <img src="/img/rrc.jpg" alt="RRC" style="width:100%; height:335px">
+    </div>
+    <div class="w3-col m6">
+      <img src="/img/edc.jpg" alt="EDC" style="width:100%; height:335px">
+>>>>>>> 8652d92297b0e88179d7f4f6e460759c713ca331
     </div>
   </div>
 
