@@ -51,30 +51,48 @@
 </div>
 
 <div id="signup" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:700px">
 
     <div class="w3-center"><br>
       <span onclick="document.getElementById('signup').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
     </div>
 
     <form class="w3-container" action="/action_page.php">
+      <h4><b>Let's get your money safe!!</b></h4>
+      <hr>
       <div class="w3-section">
-        <label><b>Username</b></label>
-        <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
-        <label><b>E-Mail ID</b></label>
-        <input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter E-Mail" name="email" required>
-        <label><b>Password</b></label>
-        <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password" name="password" required>
-        <label><b>Confirm Password</b></label>
-        <input class="w3-input w3-border w3-margin-bottom" type="password2" placeholder="Enter Password" name="password2" required>
-        <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Create Account</button>
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <label><b>First Name</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" name="fname" required>
+          </div>
+          <div class="w3-half">
+            <label><b>Last Name</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" name="lname" required>
+          </div>
+        </div>
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <label><b>E-Mail ID</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="email" name="email" required>
+          </div>
+          <div class="w3-half">
+            <label><b>Mobile Number</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="tel" pattern="[0-9]{10}" name="mnum" required>
+          </div>
+        </div>
+      <div class="w3-row-padding">
+        <div class="w3-half">
+            <label><b>Password</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="password" name="password" required>
+        </div>
+        <div class="w3-half">
+            <label><b>Confirm Password</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="password" name="password2" required>
+        </div>
+      </div>
+        <button class="w3-button w3-block w3-green w3-section w3-padding w3-red w3-hover-black" type="submit">Create Account</button>
       </div>
     </form>
-
-    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
-      <button onclick="document.getElementById('signup').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
-      <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
-    </div>
-
   </div>
 </div>
