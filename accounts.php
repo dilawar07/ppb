@@ -92,18 +92,21 @@
         </div>
       </div>
 
-      <h2>Account type</h2>
-        <p>
-        <input class="w3-radio" type="radio" name="gender" value="chequing" checked>
-        <label>Chequing</label>
-
-        <input class="w3-radio" type="radio" name="gender" value="savings">
-        <label>Savings</label>
-
+<h5>Account type</h5>
+    <div class="w3-row-padding">
+        <div class="w3-third">
+          <input class="w3-radio" type="radio" name="gender" value="chequing" checked>
+          <label>Chequing</label>
+       </div>
+       <div class="w3-third">
+          <input class="w3-radio" type="radio" name="gender" value="savings">
+          <label>Savings</label>
+        </div>
+        <div class="w3-third">
         <input class="w3-radio" type="radio" name="gender" value="bussiness" >
         <label>Bussiness</label>
-      </p>
-
+      </div>
+    </div>
 
         <button class="w3-button w3-block w3-green w3-section w3-padding w3-red w3-hover-black" type="submit">Create Account</button>
       </div>
