@@ -30,7 +30,7 @@ body {font-size:16px;}
   </div>
   <div class="w3-panel w3-large">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <a href="https://www.instagram.com/pridepoint_bank/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
