@@ -85,13 +85,13 @@ body {font-size:16px;}
       <div class="w3-third w3-margin-bottom">
         <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-red w3-xlarge w3-padding-32">Chequing</li>
-          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Free Internet Banking</li>
           <li class="w3-padding-16">500$ Credit Card</li>
           <li class="w3-padding-16">1.5% Interest</li>
           <li class="w3-padding-16">Mail Support</li>
           <li class="w3-padding-16">
-            <h2>$ 5</h2>
-            <span class="w3-opacity">per month</span>
+            <h2>Free</h2>
+            <span class="w3-opacity">No monthly fee</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
             <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
@@ -102,12 +102,12 @@ body {font-size:16px;}
       <div class="w3-third w3-margin-bottom">
         <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-red w3-xlarge w3-padding-32">Savings</li>
-          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">No Service Fee for Cash Withdrawls</li>
           <li class="w3-padding-16">2000$ Credit Card</li>
           <li class="w3-padding-16">4.5% Savings Interest</li>
           <li class="w3-padding-16">Call Support</li>
           <li class="w3-padding-16">
-            <h2>$ 15</h2>
+            <h2>$ 10</h2>
             <span class="w3-opacity">per month</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
@@ -119,12 +119,12 @@ body {font-size:16px;}
       <div class="w3-third">
         <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-red w3-xlarge w3-padding-32">Business</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Business Credit Cards from Employees</li>
+          <li class="w3-padding-16">Insurance Included</li>
+          <li class="w3-padding-16">5000$ Credit Card</li>
           <li class="w3-padding-16">Loans from 5% Interest</li>
           <li class="w3-padding-16">Endless Support</li>
           <li class="w3-padding-16">
-            <h2>$ 25</h2>
+            <h2>$ 30</h2>
             <span class="w3-opacity">per month</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
