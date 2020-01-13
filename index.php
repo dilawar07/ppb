@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -17,13 +18,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="/img/logo.gif" style="width:45%;" class="w3-round"><br><br>
-    <h4><b>PridePoint</b></h4>
+    <img src="/img/logo.gif" style="width:35%;" class="w3-round"><br><br>
+    <h2><b>PridePoint</b></h2>
     <p class="w3-text-grey">the bank you deserve</p>
   </div>
   <div class="w3-bar-block">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw w3-margin-right"></i>HOME</a>
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
-      <a href="#accounts" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ACCOUNTS</a>
+    <a href="#accounts" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ACCOUNTS</a>
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
   <div class="w3-panel w3-large">
@@ -41,62 +43,48 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
-<<<<<<< HEAD
-  <header id="portfolio">
+  <header id="home">
     <a href="#"><img src="/img/logo.gif" style="width:40px;" class="w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>PridePoint Bank</b></h1>
+    <h1 class="w3-jumbo">PridePoint Bank</h1>
+    </div>
+    <div class="w3-row-padding w3-padding-16">
+      <div class="w3-col m6">
+        <img src="/img/rrc.jpg" alt="Me" style="width:100%">
+      </div>
+      <div class="w3-col m6">
+        <img src="/img/edc.jpg" alt="Me" style="width:100%">
+      </div>
     </div>
   </header>
-=======
->>>>>>> 8652d92297b0e88179d7f4f6e460759c713ca331
 
-  <!-- Images of Me -->
-  <div class="w3-row-padding w3-padding-16" id="about">
-    <div class="w3-col m6">
-<<<<<<< HEAD
-      <img src="/img/rrc.jpg" alt="Me" style="width:100%">
-    </div>
-    <div class="w3-col m6">
-      <img src="/img/edc.jpg" alt="Me" style="width:100%">
-=======
-      <img src="/img/rrc.jpg" alt="RRC" style="width:100%; height:335px">
-    </div>
-    <div class="w3-col m6">
-      <img src="/img/edc.jpg" alt="EDC" style="width:100%; height:335px">
->>>>>>> 8652d92297b0e88179d7f4f6e460759c713ca331
-    </div>
-  </div>
-
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4><b>About Me</b></h4>
+  <!-- About -->
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
+    <h1 class="w3-xxlarge w3-text-red"><b>About Us.</b></h1>
     <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
     <hr>
 
-    <h4>Technical Skills</h4>
-    <!-- Progress bars / Skills -->
-    <p>Photography</p>
+    <h4>Customer Survey Results</h4>
+    <!-- Facts -->
+    <p>Customer Satisfaction</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
     </div>
-    <p>Web Design</p>
+    <p>Best Interest Rates</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
     </div>
-    <p>Photoshop</p>
+    <p>Easy Loans</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
     </div>
-    <p>
-      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
-        <i class="fa fa-download w3-margin-right"></i>Download Resume
-      </button>
-    </p>
     <hr>
+  </div>
 
-    <h4>How much I charge</h4>
-    <!-- Pricing Tables -->
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="accounts">
+    <!-- Accounts Tables -->
+    <h1 class="w3-xxlarge w3-text-red"><b>Accounts.</b></h1>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-third w3-margin-bottom">
         <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
@@ -153,7 +141,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-large w3-grey">
-    <h4 id="contact"><b>Contact Me</b></h4>
+    <h1 class="w3-xxlarge w3-text-red"><b>Contact.</b></h1>
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
