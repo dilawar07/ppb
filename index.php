@@ -140,7 +140,11 @@ body {font-size:16px;}
   </div>
 
   <!-- Contact Section -->
+<<<<<<< HEAD
   <div class="w3-container w3-padding-large" id="contact">
+=======
+  <div class="w3-container w3-padding-large">
+>>>>>>> 748676481fb2fcc08178b3be63f26054781f8192
     <h1 class="w3-xxlarge w3-text-red"><b>Contact.</b></h1>
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
