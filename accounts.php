@@ -46,6 +46,35 @@
   </div>
   <div class="w3-container w3-center">
     Chosen what type of account works for you?<br>
-    <button class="w3-button w3-red w3-padding-large w3-hover-black w3-margin-top">Sign Up Now!</button>
+    <button class="w3-button w3-red w3-padding-large w3-hover-black w3-margin-top" onclick="document.getElementById('signup').style.display='block'">Create Account Now!</button>
+  </div>
+</div>
+
+<div id="signup" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+    <div class="w3-center"><br>
+      <span onclick="document.getElementById('signup').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+    </div>
+
+    <form class="w3-container" action="/action_page.php">
+      <div class="w3-section">
+        <label><b>Username</b></label>
+        <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="username" required>
+        <label><b>E-Mail ID</b></label>
+        <input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Enter E-Mail" name="email" required>
+        <label><b>Password</b></label>
+        <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password" name="password" required>
+        <label><b>Confirm Password</b></label>
+        <input class="w3-input w3-border w3-margin-bottom" type="password2" placeholder="Enter Password" name="password2" required>
+        <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Create Account</button>
+      </div>
+    </form>
+
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+      <button onclick="document.getElementById('signup').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+      <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+    </div>
+
   </div>
 </div>
