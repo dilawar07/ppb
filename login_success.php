@@ -1,22 +1,37 @@
 <?php
   require 'config.php';
   require 'database.php';
-  $g_title = BLOG_NAME . ' - Login';
-  $g_page = 'accounts.php';
-  include_once("header.php");
-
-include_once("nav.php");
-  ///require 'menu.php';
+  $g_title = BLOG_NAME . ' - Index';
+  $g_page = 'logout';
+  require 'header.php';
+  require 'nav.php';
+ 
+ // require 'menu.php';
 //require 'banner.php';
-  
+?>
+
+
+
+<?php
+
 //session_start();
 
-if(isset($_SESSION['username'])){
-//	header("location:index.php");
+if(!isset($_SESSION['username'])){
+	header("location:main_login.php");
 }
-  
 
 ?>
+
+<center>
+<div style="width:300px;float:center;text-align=left;">
+      <h1 class="w3-wide">Welcome To PridePoint Bank</h1>
+      
+      <h3>Choose an account to get started.</h3>
+
+
+
+</center>
+
 
 
 <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="accounts">
@@ -132,3 +147,51 @@ if(isset($_SESSION['username'])){
     </form>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<br><br>
+
+
+
+<br><br>
+
+
+
+<br><br>
+
+
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<?php
+  require 'footer.php';
+?>
