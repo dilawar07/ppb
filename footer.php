@@ -1,5 +1,5 @@
 <!-- Footer -->
-<div class="w3-red w3-center w3-padding-16">PridePoint Bank | All Rights Unreserved | Copywrongs  2019 | Powered by Arby's</div>
+<div class="w3-red w3-padding w3-bottom">PridePoint Bank | All Rights Unreserved | Powered by Arby's</div>
 
 
 <!-- End page content -->

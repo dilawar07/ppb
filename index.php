@@ -140,7 +140,7 @@
       <button type="submit" class="w3-button w3-red w3-margin-bottom w3-hover-black"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
-
+  <br>
 <?php
   require 'footer.php';
 ?>
