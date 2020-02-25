@@ -11,7 +11,7 @@ if(!isset($_SESSION['username'])){
 }
 ?>
 
-<div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
+<div class="w3-container w3-padding-large" style="margin-top:75px;">
   <h1 class="w3-xxlarge w3-text-red"><b>Welcome <?php echo $_SESSION['username'] ?>.</b></h1>
   <p>You have successfully logged in.</p>
   <form action="logout.php">
