@@ -25,8 +25,7 @@
 ?>
 
 <div class="w3-container" id="contact" style="margin-top:75px">
-	<h1 class="w3-xxxlarge w3-text-red"><b>Register.</b></h1>
-	<hr style="width:50px;border:5px solid red" class="w3-round">
+	<h1 class="w3-xxlarge w3-text-red"><b>Register.</b></h1>
 
 	<form name="form1" method="post" action="register.php">
 		<div class="w3-section">
