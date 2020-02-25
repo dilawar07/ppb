@@ -1,4 +1,4 @@
-<div style="float:top:0px; "> 
+<div style="float:top:0px; ">
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;top:0px;" id="mySidebar"><br>
   <div class="w3-container">
@@ -6,19 +6,19 @@
       <i class="fa fa-remove"></i>
     </a>
     <img src="images/logo.gif" style="width:35%;" class="w3-round"><br><br>
-    <h2><b>PridePoint<i class="fas fa-khanda fa-fw w3-margin-right"></i></b></h2>
-    <p class="w3-text-grey">The <i class="fab fa-canadian-maple-leaf"></i> Punjabi Bank you deserve</p>
+    <h2><b>PridePoint</b></h2>
+    <p class="w3-text-grey">The bank you deserve</p>
   </div>
   <div class="w3-bar-block">
   <?php
   include_once("menu.php");
-  
-  
-  
+
+
+
   ?>
-    
+
   </div>
- 
+
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
