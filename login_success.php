@@ -17,7 +17,7 @@ if(!isset($_SESSION['username'])){
   <form action="logout.php">
     <button class="w3-button w3-block w3-green w3-section w3-padding w3-red w3-hover-black" type="submit">Logout</button>
   </form>
-
+</div>
 
 <?php
   require 'footer.php';
