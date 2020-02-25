@@ -3,47 +3,35 @@
   require 'nav.php';
 
 ?>
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <script>
     $(document).ready(function(){
       $('.slider').bxSlider({
-
-		     auto: true,
-  autoControls: false,
-    mode: 'fade',
-    captions: true,
-    slideWidth: 1000,
-  stopAutoOnClick: true,
-  pager: true,
-		  })
-
-
+        auto: true,
+        autoControls: false,
+        mode: 'fade',
+        captions: true,
+        slideWidth: 1000,
+        stopAutoOnClick: true,
+        pager: true,
+      })
     });
-  </script>
+</script>
 
 </head>
 
-  <header id="home">
-    <div class="w3-row-padding">
-      <div class="w3-col m6 w3-padding" style="margin-top:50px;width:1380px;">
-<div class="slider">
-
-     <div>   <img src="images/rrc.jpg" title="Powered By RRC Notre Dame Campus"></div>
-    <div>    <img src="images/edc.jpg"  title="Powered By RRC EDC Campus"></div>
-      <div>  <img src="images/Savings-bank-account.png" width="1000px" title="Open a Savings Account with us"  ></div>
-
-
-</div>
-
-
+<header id="home">
+  <div class="w3-row-padding">
+    <div class="w3-col m6 w3-padding" style="margin-top:50px;width:1380px;">
+      <div class="slider">
+        <div>   <img src="images/rrc.jpg" title="Powered By RRC Notre Dame Campus"></div>
+        <div>    <img src="images/edc.jpg"  title="Powered By RRC EDC Campus"></div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- About -->
   <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
