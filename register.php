@@ -44,7 +44,7 @@
 			<label>Verify Password</label>
 			<input name="mypassword2" placeholder="Enter verify password" class="w3-input w3-border" type="password" id="mypassword2"><br>
 		</div>
-		<input type="submit" name="Submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" value="Register"></td>
+		<input type="submit" name="Submit" class="w3-button w3-red w3-margin-bottom w3-hover-black" value="Register"></td>
 	</form>
 </div>
 </center>
