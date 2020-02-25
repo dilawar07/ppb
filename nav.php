@@ -26,7 +26,7 @@
 
   else
   {
-    echo"<a href='logout.php' class='w3-bar-item w3-button w3-padding w3-hover-red'><i class='fa fa-sign-in fa-fw w3-margin-right'></i>LOGOUT</a>";
+    echo"<a href='login_success.php' class='w3-bar-item w3-button w3-padding w3-hover-red'><i class='fa fa-sign-in fa-fw w3-margin-right'></i>PROFILE</a>";
   }
   ?>
 
