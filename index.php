@@ -3,35 +3,30 @@
   require 'nav.php';
 
 ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<script>
-    $(document).ready(function(){
-      $('.slider').bxSlider({
-        auto: true,
-        autoControls: false,
-        mode: 'fade',
-        captions: true,
-        slideWidth: 1000,
-        stopAutoOnClick: true,
-        pager: true,
-      })
-    });
-</script>
 
-</head>
 
-<header id="home">
-  <div class="w3-row-padding">
-    <div class="w3-col m6 w3-padding" style="margin-top:50px;width:1380px;">
-      <div class="slider">
-        <div>   <img src="images/rrc.jpg" title="Powered By RRC Notre Dame Campus"></div>
-        <div>    <img src="images/edc.jpg"  title="Powered By RRC EDC Campus"></div>
-      </div>
-    </div>
+  <!-- Image Slideshow -->
+  <div class="w3-content w3-section" style="max-width:1200px">
+    <img class="mySlides" src="images/rrc.jpg" style="width:100%">
+    <img class="mySlides" src="images/edc.jpg" style="width:100%">
   </div>
-</header>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
 
   <!-- About -->
   <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="about">
@@ -107,69 +102,7 @@
     </div>
     <div class="w3-container w3-center">
       Chosen what type of account works for you?<br>
-      <button class="w3-button w3-red w3-padding-large w3-hover-black w3-margin-top" onclick="document.getElementById('signup').style.display='block'">Create Account Now!</button>
-    </div>
-  </div>
-
-  <div id="signup" class="w3-modal">
-    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:700px">
-
-      <div class="w3-center"><br>
-        <span onclick="document.getElementById('signup').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
-      </div>
-
-      <form class="w3-container" action="/action_page.php">
-        <h4><b>Let's get your money safe!!</b></h4>
-        <hr>
-        <div class="w3-section">
-          <div class="w3-row-padding">
-            <div class="w3-half">
-              <label><b>First Name</b></label>
-              <input class="w3-input w3-border w3-margin-bottom" type="text" name="fname" required>
-            </div>
-            <div class="w3-half">
-              <label><b>Last Name</b></label>
-              <input class="w3-input w3-border w3-margin-bottom" type="text" name="lname" required>
-            </div>
-          </div>
-          <div class="w3-row-padding">
-            <div class="w3-half">
-              <label><b>E-Mail ID</b></label>
-              <input class="w3-input w3-border w3-margin-bottom" type="email" name="email" required>
-            </div>
-            <div class="w3-half">
-              <label><b>Mobile Number</b></label>
-              <input class="w3-input w3-border w3-margin-bottom" type="tel" pattern="[0-9]{10}" name="mnum" required>
-            </div>
-          </div>
-          <div class="w3-row-padding">
-            <div class="w3-half">
-                <label><b>Password</b></label>
-                <input class="w3-input w3-border w3-margin-bottom" type="password" name="password" required>
-            </div>
-            <div class="w3-half">
-                <label><b>Confirm Password</b></label>
-                <input class="w3-input w3-border w3-margin-bottom" type="password" name="password2" required>
-            </div>
-          </div>
-          <h5>Account type</h5>
-          <div class="w3-row-padding">
-            <div class="w3-third">
-                <input class="w3-radio" type="radio" name="gender" value="chequing" checked>
-                <label>Chequing (free)</label>
-            </div>
-            <div class="w3-third">
-                <input class="w3-radio" type="radio" name="gender" value="savings">
-                <label>Savings ($10/m)</label>
-            </div>
-            <div class="w3-third">
-                <input class="w3-radio" type="radio" name="gender" value="bussiness" >
-                <label>Bussiness ($30/m)</label>
-            </div>
-          </div>
-          <button class="w3-button w3-block w3-green w3-section w3-padding w3-red w3-hover-black" type="submit">Create Account</button>
-        </div>
-      </form>
+      <button class="w3-button w3-red w3-padding-large w3-hover-black w3-margin-top" onclick="document.location.href='register.php'" >Create Account Now!</button>
     </div>
   </div>
 
