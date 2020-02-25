@@ -6,20 +6,11 @@
   include_once("header.php");
 
 include_once("nav.php");
-  ///require 'menu.php';
-//require 'banner.php';
-  
-//session_start();
 
 if(isset($_SESSION['username'])){
 	header("location:index.php");
 }
-  
 ?>
-
-
-
-
 
 <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Login.</b></h1>
@@ -42,17 +33,8 @@ if(isset($_SESSION['username'])){
 </form>
 </div>
 
-<br><br>
 
-<br><br>
-
-
-<br><br>
-
-
-<br><br>
 
 <?php
   require 'footer.php';
 ?>
-
